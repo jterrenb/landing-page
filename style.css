@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 18px 200px;
+    padding: 18px 180px;
 }
 .header {
     display: flex;
@@ -76,10 +76,39 @@ a {
     padding: 8px 28px;
 }
 .hero-image{
-    background-color: #9fa0a1;
+    background-color: #8f9091;
     color: #f9faf8;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 180px;
+}
+.info h2 {
+    margin: 42px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.img-container {
+    display: flex;
+    gap: 32px;
+}
+.card{
+    width: 150px;
+}
+.img {
+    box-sizing: border-box;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+}
+.card p{
+    text-align: center;
+    margin-top: 8px;
 }
