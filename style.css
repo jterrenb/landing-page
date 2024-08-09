@@ -127,3 +127,19 @@ a {
     padding: 0 36px;
     font-weight: bold;
 }
+.action {
+    margin: 64px 180px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 12px;
+    display: flex;
+    align-items: end;
+    padding: 36px 120px;
+    justify-content: space-between;
+}
+.action-button {
+    box-sizing: border-box;
+    border: #f9faf8 solid 2px;
+    border-radius: 6px;
+    padding: 6px 32px;
+}
