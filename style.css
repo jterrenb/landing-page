@@ -143,3 +143,10 @@ a {
     border-radius: 6px;
     padding: 6px 32px;
 }
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    padding: 24px 0;
+}
